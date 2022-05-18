@@ -19,15 +19,9 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.pricing {
-  background: #F9F9FB;
-  padding: 70px 0 0 70px;
-  margin-top: 70px;
-}
-
 .header {
   font-weight: 600;
-  color: navy;
+  color: #02044A;
   font-size: 46px;
   line-height: 60px;
   margin-top: 22px;
@@ -75,5 +69,98 @@ body {
 
 .sales .copywriting {
   padding-left: 60px;
+}
+
+.pricing {
+  background: #F9F9FB;
+  padding: 70px 0 70px 0;
+  margin-top: 70px;
+}
+
+.pricing .master-card, .pricing .basic-card, .pricing .most-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.pricing .master-card .btn, .pricing .basic-card .btn, .pricing .most-card .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pricing .master-card .item-benefit, .pricing .basic-card .item-benefit, .pricing .most-card .item-benefit {
+  margin-bottom: 20px;
+}
+
+.pricing .master-card .item-benefit img, .pricing .basic-card .item-benefit img, .pricing .most-card .item-benefit img {
+  width: 22px;
+  float: left;
+  margin-right: 8px;
+}
+
+.pricing .master-card .item-benefit p, .pricing .basic-card .item-benefit p, .pricing .most-card .item-benefit p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pricing .master-card .name, .pricing .basic-card .name, .pricing .most-card .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pricing .master-card .price, .pricing .basic-card .price, .pricing .most-card .price {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.pricing .master-card .support, .pricing .basic-card .support, .pricing .most-card .support {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.pricing .basic-card {
+  background: #fff;
+}
+
+.pricing .basic-card .name {
+  color: #02044A;
+}
+
+.pricing .basic-card .price {
+  color: #02044A;
+}
+
+.pricing .basic-card .support {
+  color: #9b9cb9;
+}
+
+.pricing .basic-card .item-benefit p {
+  color: #02044A;
+}
+
+.pricing .most-card {
+  background: #6B52DB;
+}
+
+.pricing .most-card .btn-primary {
+  background: #3ABAD6 !important;
+}
+
+.pricing .most-card .name {
+  color: #fff;
+}
+
+.pricing .most-card .price {
+  color: #fff;
+}
+
+.pricing .most-card .support {
+  color: #B19FFF;
+}
+
+.pricing .most-card .item-benefit p {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
