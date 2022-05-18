@@ -1,0 +1,62 @@
+// SASS Module
+@import './colors';
+@import './buttons';
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.pricing {
+  background: $lilpur;
+  padding: 70px 0 0 70px;
+  margin-top: 70px;
+}
+
+.header{
+  font-weight: map-get($map: $font-weight, $key: semibold);
+  color: navy;
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: 22px;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  color: $newpur;
+  font-weight: map-get($map: $font-weight, $key: regular);
+}
+
+.navbar-tp {
+  padding-top: 30px;
+  .navbar-nav {
+    li {
+      padding-left: 40px;
+    }
+    .active {
+      color: $purple !important;
+      font-weight: map-get($map: $font-weight, $key: medium) !important;
+    }
+
+    .nav-link {
+      color: $navy;
+      font-weight: map-get($map: $font-weight, $key: regular);
+    }
+  }
+}
+
+.sales {
+  padding-top: 60px;
+  .brand {
+    margin-top: 50px;
+    text-align: center;
+    .brand-logos {
+      width: 440px;
+    }
+  }
+  .copywriting {
+    padding-left: 60px;
+  }
+}

@@ -1,0 +1,23 @@
+@import './typo';
+
+.btn-master {
+  padding: 12px 28px;
+  border: 0px;
+  font-weight: map-get($map: $font-weight, $key: semibold);
+  border-radius: 8px;
+}
+
+// SASS Extend
+.buttons {
+  .btn-primary {
+    background-color: $purple;
+    color: $white;
+    @extend .btn-master;
+  }
+  
+  .btn-secondary {
+    background-color: $sofpur;
+    color: $darpur;
+    @extend .btn-master;
+  }
+}
